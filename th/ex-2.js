@@ -26,7 +26,7 @@ function updateStudentScore(studentsInfo,targetStudent,addScore){
                 right =mid-1;
             }
         }
-    return `Not found Jenny on the list`;
+    return `Not found ${targetStudent} on the list`;
     }
 const studentsInfo = [
   { name: "Alice", age: 14, classNumber: 8, score: 70 },
